@@ -12,7 +12,7 @@ import {NgxCookiebotConfig} from './ngx-cookiebot.config';
  *
  */
 export class NgxCookiebotComponent implements OnInit {
-  @ViewChild('ngxCookiebot', {static: true})
+  @ViewChild('ngxCookiebot')
   ngxCookiebotElement: ElementRef;
 
   /**

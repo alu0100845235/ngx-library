@@ -4,7 +4,7 @@ An Angular wrapper around the [Cookiebot](https://www.cookiebot.com/) SDK.
 
 ## Installation
 ```
-npm i @halloverden/ngx-cookiebot -S
+npm i ngx-cookiebot-angular7 -S
 ```
 
 ## Setup
@@ -16,7 +16,7 @@ A Cookiebot account.
 
 ```typescript
 // shared.module.ts
-import { NgxCookiebotModule } from '@halloverden/ngx-cookiebot';
+import { NgxCookiebotModule } from 'ngx-cookiebot-angular7';
 
 @NgModule({
   exports: [
@@ -27,7 +27,7 @@ import { NgxCookiebotModule } from '@halloverden/ngx-cookiebot';
 
 ```typescript
 // app.module.ts
-import { NgxCookiebotModule } from '@halloverden/ngx-cookiebot';
+import { NgxCookiebotModule } from 'ngx-cookiebot-angular7';
 import { CookiebotConfig } from '@config/cookiebot.config';
 
 @NgModule({
@@ -42,7 +42,7 @@ Configure the service according to the [Cookiebot developer docs](https://www.co
 
 ```typescript
 // cookiebot.config.ts
-import { NgxCookiebotConfig } from '@halloverden/ngx-cookiebot';
+import { NgxCookiebotConfig } from 'ngx-cookiebot-angular7';
 
 export class CookiebotConfig extends NgxCookiebotConfig {
   blockingMode: 'auto' | 'manual' | string;

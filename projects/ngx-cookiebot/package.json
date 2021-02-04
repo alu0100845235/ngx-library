@@ -1,5 +1,5 @@
 {
-  "name": "@halloverden/ngx-cookiebot",
+  "name": "ngx-cookiebot-angular7",
   "version": "1.0.7",
   "description": "A simple Angular wrapper for the Cookiebot SDK",
   "keywords": [
@@ -9,9 +9,9 @@
     "cookies",
     "ngx"
   ],
-  "homepage": "https://github.com/halloverden/ngx-library/tree/main/projects/ngx-cookiebot#readme",
+  "homepage": "https://github.com/alu0100845235/ngx-library/blob/main/projects/ngx-cookiebot/README.md",
   "bugs": {
-    "url": "https://github.com/halloverden/ngx-library/issues"
+    "url": "https://github.com/alu0100845235/ngx-library/issues"
   },
   "license": "MIT",
   "author": {
@@ -22,14 +22,18 @@
     {
       "name": "Erich Json Fosse",
       "email": "erich@halloverden.no"
+    },
+    {
+      "name": "Ruyman Rodriguez Martin",
+      "email": "alu0100845235@ull.edu.es"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/halloverden/ngx-library/tree/main/projects/ngx-cookiebot"
+    "url": "https://github.com/alu0100845235/ngx-library/tree/main/projects/ngx-cookiebot"
   },
   "peerDependencies": {
-    "@angular/common": "^8.2.14 - <=10",
-    "@angular/core": "^8.2.14 - <=10"
+    "@angular/common": "^7.0.0 - < 8",
+    "@angular/core": "^7.0.0 - < 8"
   }
 }
